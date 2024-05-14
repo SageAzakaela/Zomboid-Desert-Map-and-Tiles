@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="levelisometric" width="300" height="300" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="AZA_AngelStates" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_AngelStates.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="257" name="AZA_Ashland_Blends_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Ashland_Blends_1.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="321" name="AZA_Ashland_Blends_2" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Ashland_Blends_2.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="AZA_Ashland_BlueGrass_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Ashland_BlueGrass_1.png" width="768" height="2560"/>
+ </tileset>
+ <tileset firstgid="625" name="AZA_Ashland_Boulders" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Ashland_Boulders.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="881" name="AZA_Ashland_ShadowGrass_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Ashland_ShadowGrass_1.png" width="768" height="2560"/>
+ </tileset>
+ <tileset firstgid="1121" name="AZA_Castle_Floor_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Castle_Floor_1.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="1185" name="AZA_Castle_StainedGlassWindows_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Castle_StainedGlassWindows_1.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="1441" name="AZA_Castle_Stairs_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Castle_Stairs_1.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="1697" name="AZA_Castle_Wall_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Castle_Wall_1.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="1953" name="AZA_Castle_Wall_Roofs_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Castle_Wall_Roofs_1.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="2081" name="AZA_CobbleRoad_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_CobbleRoad_01.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="2145" name="AZA_DarkGrime" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_DarkGrime.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="2401" name="AZA_Emberroot_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Emberroot_1.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="2529" name="AZA_Evil_Decor_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Evil_Decor_1.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="2785" name="AZA_FaeFrostLand" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_FaeFrostLand.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="2849" name="AZA_FaeFrostLand_vegetation" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_FaeFrostLand_vegetation.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="3105" name="AZA_FaeLand_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_FaeLand_1.png" width="1024" height="5120"/>
+ </tileset>
+ <tileset firstgid="3745" name="AZA_FrysGrass_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_FrysGrass_1.png" width="768" height="2560"/>
+ </tileset>
+ <tileset firstgid="3985" name="AZA_Gargoyles" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Gargoyles.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="4241" name="AZA_Ice" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Ice.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="4305" name="AZA_Lava_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Lava_1.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="4369" name="AZA_MossyStoneBrickWall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_MossyStoneBrickWall_01.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="4625" name="AZA_MossyStoneFloor" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_MossyStoneFloor.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="4689" name="AZA_Mushrooms_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_Mushrooms_1.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="4945" name="AZA_OrnateFloors_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_OrnateFloors_01.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="5201" name="AZA_PermaSnowTrees_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_PermaSnowTrees_1.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="5329" name="AZA_SnowGrass" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_SnowGrass.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="5393" name="AZA_SnowierGrass" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_SnowierGrass.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="5457" name="AZA_StoneWall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_StoneWall_01.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="5713" name="AZA_SwampTreesDead" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_SwampTreesDead.png" width="768" height="2048"/>
+ </tileset>
+ <tileset firstgid="5905" name="AZA_SwampWater" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_SwampWater.png" width="1024" height="2560"/>
+ </tileset>
+ <tileset firstgid="6225" name="AZA_TallDryGrass" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_TallDryGrass.png" width="768" height="2048"/>
+ </tileset>
+ <tileset firstgid="6417" name="AZA_ThatchedRoof_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_ThatchedRoof_01.png" width="1024" height="1536"/>
+ </tileset>
+ <tileset firstgid="6609" name="AZA_ThatchedRoof_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_ThatchedRoof_02.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="6737" name="AZA_WoodWall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/AZA_WoodWall_01.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="6993" name="advertising_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/advertising_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="7121" name="advertising_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/advertising_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7185" name="appliances_com_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_com_01.png" width="512" height="3840"/>
+ </tileset>
+ <tileset firstgid="7425" name="appliances_cooking_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_cooking_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="7553" name="appliances_laundry_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_laundry_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7617" name="appliances_misc_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_misc_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7681" name="appliances_radio_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_radio_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7745" name="appliances_refrigeration_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_refrigeration_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7809" name="appliances_television_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/appliances_television_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="7937" name="aza_bunker_stairs" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/aza_bunker_stairs.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="8193" name="aza_rockycliff" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/aza_rockycliff.png" width="1024" height="4096"/>
+ </tileset>
+ <tileset firstgid="8705" name="blends_grassoverlays_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/blends_grassoverlays_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="8785" name="blends_natural_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/blends_natural_01.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="8945" name="blends_natural_01_TEST" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/blends_natural_01_TEST.png" width="1024" height="2560"/>
+ </tileset>
+ <tileset firstgid="9265" name="blends_natural_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/blends_natural_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="9345" name="blends_street_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/blends_street_01.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="9505" name="blends_streetoverlays_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/blends_streetoverlays_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="9585" name="books&amp;misc_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/books&amp;misc_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="9713" name="books&amp;misc_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/books&amp;misc_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="9841" name="brokenglass_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/brokenglass_1.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="9921" name="camping_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/camping_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9985" name="carpentry_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/carpentry_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10049" name="carpentry_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/carpentry_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="10177" name="clothing_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/clothing_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10241" name="clothing_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/clothing_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10305" name="constructedobjects_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/constructedobjects_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="10401" name="constructedobjects_signs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/constructedobjects_signs_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10465" name="construction_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/construction_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10529" name="crafted_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/crafted_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10593" name="d_desert_rocks_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_desert_rocks_1.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="10721" name="d_floorleaves_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_floorleaves_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="10753" name="d_generic_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_generic_1.png" width="1024" height="1280"/>
+ </tileset>
+ <tileset firstgid="10913" name="d_plants_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_plants_1.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10977" name="d_plants_3" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_plants_3.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="11105" name="d_streetcracks_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_streetcracks_1.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="11233" name="d_trash_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_trash_1.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="11313" name="d_wallcracks_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/d_wallcracks_1.png" width="576" height="1024"/>
+ </tileset>
+ <tileset firstgid="11385" name="damaged_objects_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/damaged_objects_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="11513" name="desks_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/desks_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="11609" name="e_americanholly_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_americanholly_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11641" name="e_americanlinden_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_americanlinden_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11673" name="e_canadianhemlock_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_canadianhemlock_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11705" name="e_carolinasilverbell_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_carolinasilverbell_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11737" name="e_cockspurhawthorn_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_cockspurhawthorn_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11769" name="e_dogwood_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_dogwood_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11801" name="e_easternredbud_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_easternredbud_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="11833" name="e_exterior_snow_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_exterior_snow_1.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="11835" name="e_newgrass_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_newgrass_1.png" width="384" height="1920"/>
+ </tileset>
+ <tileset firstgid="11925" name="e_newgrassbase_snow_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_newgrassbase_snow_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="11957" name="e_newsnow_ground_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_newsnow_ground_1.png" width="512" height="768"/>
+ </tileset>
+ <tileset firstgid="12005" name="e_redmaple_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_redmaple_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="12037" name="e_riverbirch_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_riverbirch_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="12069" name="e_roof_snow_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_roof_snow_1.png" width="512" height="1792"/>
+ </tileset>
+ <tileset firstgid="12181" name="e_virginiapine_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_virginiapine_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="12213" name="e_yellowwood_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/e_yellowwood_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="12245" name="electricity_pylon" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/electricity_pylon.png" width="512" height="2944"/>
+ </tileset>
+ <tileset firstgid="12429" name="f_bushes_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/f_bushes_1.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="12557" name="f_bushes_2" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/f_bushes_2.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="12637" name="f_flowerbed_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/f_flowerbed_1.png" width="768" height="512"/>
+ </tileset>
+ <tileset firstgid="12685" name="f_wallvines_1" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/f_wallvines_1.png" width="384" height="1536"/>
+ </tileset>
+ <tileset firstgid="12757" name="fencing_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fencing_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="12885" name="fencing_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fencing_burnt_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13013" name="fencing_damaged_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fencing_damaged_01.png" width="512" height="3072"/>
+ </tileset>
+ <tileset firstgid="13205" name="fencing_damaged_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fencing_damaged_02.png" width="512" height="3072"/>
+ </tileset>
+ <tileset firstgid="13397" name="fixtures_bathroom_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_bathroom_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="13477" name="fixtures_bathroom_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_bathroom_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="13541" name="fixtures_counters_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_counters_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13669" name="fixtures_doors_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_doors_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13797" name="fixtures_doors_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_doors_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13925" name="fixtures_doors_fences_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_doors_fences_01.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="14045" name="fixtures_doors_frames_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_doors_frames_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14109" name="fixtures_escalators_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_escalators_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14173" name="fixtures_fireplaces_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_fireplaces_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="14253" name="fixtures_overlay_counters_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_overlay_counters_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="14381" name="fixtures_railings_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_railings_01.png" width="512" height="2304"/>
+ </tileset>
+ <tileset firstgid="14525" name="fixtures_sinks_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_sinks_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14589" name="fixtures_stairs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_stairs_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="14717" name="fixtures_windows_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_windows_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="14797" name="fixtures_windows_curtains_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_windows_curtains_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="14925" name="fixtures_windows_curtains_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_windows_curtains_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14989" name="fixtures_windows_detailing_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/fixtures_windows_detailing_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15053" name="floors_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_burnt_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15117" name="floors_exterior_natural_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_exterior_natural_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15181" name="floors_exterior_street_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_exterior_street_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15245" name="floors_exterior_tilesandstone_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_exterior_tilesandstone_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15309" name="floors_interior_carpet_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_interior_carpet_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15373" name="floors_interior_tilesandwood_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_interior_tilesandwood_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="15501" name="floors_rugs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/floors_rugs_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="15629" name="food_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/food_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="15757" name="food_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/food_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="15885" name="furniture_bedding_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_bedding_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="16013" name="furniture_seating_indoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_seating_indoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16077" name="furniture_seating_indoor_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_seating_indoor_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16141" name="furniture_seating_indoor_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_seating_indoor_03.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="16221" name="furniture_seating_outdoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_seating_outdoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16285" name="furniture_shelving_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_shelving_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16349" name="furniture_storage_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_storage_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16413" name="furniture_storage_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_storage_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16477" name="furniture_tables_high_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_tables_high_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16541" name="furniture_tables_low_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/furniture_tables_low_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16605" name="industry_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16669" name="industry_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_02.png" width="512" height="4096"/>
+ </tileset>
+ <tileset firstgid="16925" name="industry_bunker_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_bunker_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="17005" name="industry_railroad_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_railroad_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17069" name="industry_railroad_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_railroad_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17133" name="industry_railroad_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_railroad_03.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17197" name="industry_railroad_04" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_railroad_04.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17261" name="industry_railroad_05" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_railroad_05.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17325" name="industry_trucks_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_trucks_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="17405" name="industry_trucks_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/industry_trucks_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="17485" name="invisible_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/invisible_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17549" name="jumbo_tree_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/jumbo_tree_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17613" name="lighting_indoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/lighting_indoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17677" name="lighting_outdoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/lighting_outdoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17741" name="location_barn_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_barn_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17805" name="location_business_bank_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_business_bank_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="17869" name="location_business_distillery_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_business_distillery_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="17997" name="location_business_machinery" tilewidth="64" tileheight="128">
+  <image source="location_business_machinery.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="18061" name="location_business_machinery_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_business_machinery_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="18125" name="location_business_office_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_business_office_generic_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="18189" name="location_community_cemetary_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_community_cemetary_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="18269" name="location_community_church_small_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_community_church_small_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="18397" name="location_community_church_small_02" tilewidth="64" tileheight="128">
+  <image source="location_community_church_small_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="18461" name="location_community_medical_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_community_medical_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="18589" name="location_community_park_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_community_park_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="18669" name="location_community_police_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_community_police_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="18733" name="location_community_school_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_community_school_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="18797" name="location_entertainment_gallery_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_entertainment_gallery_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="18925" name="location_entertainment_gallery_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_entertainment_gallery_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="19053" name="location_entertainment_theatre_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_entertainment_theatre_01.png" width="512" height="4096"/>
+ </tileset>
+ <tileset firstgid="19309" name="location_farm_accesories_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_farm_accesories_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="19389" name="location_hospitality_sunstarmotel_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_hospitality_sunstarmotel_01.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="19461" name="location_hospitality_sunstarmotel_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_hospitality_sunstarmotel_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="19525" name="location_military_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_military_generic_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="19589" name="location_military_knox_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_military_knox_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="19653" name="location_military_tent_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_military_tent_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="19781" name="location_restaurant_bar_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_bar_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="19877" name="location_restaurant_diner_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_diner_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="19941" name="location_restaurant_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_generic_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20005" name="location_restaurant_pie_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_pie_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20069" name="location_restaurant_pileocrepe_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_pileocrepe_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20133" name="location_restaurant_pizzawhirled_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_pizzawhirled_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="20261" name="location_restaurant_seahorse_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_seahorse_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="20389" name="location_restaurant_spiffos_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_spiffos_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="20469" name="location_restaurant_spiffos_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_spiffos_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20533" name="location_restaurant_spiffos_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_restaurant_spiffos_03.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20597" name="location_services_beauty_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_services_beauty_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="20677" name="location_sewer_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_sewer_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20741" name="location_shop_accessories_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_accessories_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20805" name="location_shop_accessories_genericsigns_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_accessories_genericsigns_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="20933" name="location_shop_bargNclothes_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_bargNclothes_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20997" name="location_shop_fossoil_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_fossoil_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21061" name="location_shop_gas2go_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_gas2go_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21125" name="location_shop_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_generic_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="21253" name="location_shop_greenes_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_greenes_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="21333" name="location_shop_mall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_mall_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="21461" name="location_shop_mall_signs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_mall_signs_01.png" width="512" height="2304"/>
+ </tileset>
+ <tileset firstgid="21605" name="location_shop_mall_signs_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_mall_signs_02.png" width="512" height="2304"/>
+ </tileset>
+ <tileset firstgid="21749" name="location_shop_zippee_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_shop_zippee_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21813" name="location_trailer_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_trailer_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21877" name="location_trailer_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/location_trailer_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21941" name="office_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/office_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22005" name="overlay_blood_fence_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_blood_fence_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22069" name="overlay_blood_floor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_blood_floor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22133" name="overlay_blood_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_blood_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22197" name="overlay_graffiti_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_graffiti_wall_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="22325" name="overlay_grime_floor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_grime_floor_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="22421" name="overlay_grime_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_grime_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22485" name="overlay_messages_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/overlay_messages_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22549" name="papernotices_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/papernotices_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22613" name="radio_tower" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/radio_tower.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="22741" name="recreational_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/recreational_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22805" name="recreational_sports_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/recreational_sports_01.png" width="512" height="4096"/>
+ </tileset>
+ <tileset firstgid="23061" name="roofs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_01.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="23181" name="roofs_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_02.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="23301" name="roofs_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_03.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="23429" name="roofs_04" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_04.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="23549" name="roofs_05" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_05.png" width="512" height="2944"/>
+ </tileset>
+ <tileset firstgid="23733" name="roofs_accents_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_accents_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23813" name="roofs_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/roofs_burnt_01.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="23933" name="royalewithcheese" tilewidth="64" tileheight="128">
+  <image source="royalewithcheese.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="23997" name="security_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/security_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="24077" name="signs_miscbrands_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/signs_miscbrands_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="24205" name="signs_one-off_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/signs_one-off_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="24333" name="signs_one-off_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/signs_one-off_02.png" width="512" height="8192"/>
+ </tileset>
+ <tileset firstgid="24845" name="signs_one-off_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/signs_one-off_03.png" width="512" height="8192"/>
+ </tileset>
+ <tileset firstgid="25357" name="signs_one-off_04" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/signs_one-off_04.png" width="512" height="8192"/>
+ </tileset>
+ <tileset firstgid="25869" name="signs_one-off_05" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/signs_one-off_05.png" width="512" height="12288"/>
+ </tileset>
+ <tileset firstgid="26637" name="stashes_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/stashes_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="26765" name="street_curbs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="26845" name="street_curbs_01_blend_dark_grass" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_dark_grass.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="26933" name="street_curbs_01_blend_dirt" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_dirt.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="27021" name="street_curbs_01_blend_gravel" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_gravel.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="27109" name="street_curbs_01_blend_light_grass" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_light_grass.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="27197" name="street_curbs_01_blend_medium_grass" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_medium_grass.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="27285" name="street_curbs_01_blend_sand" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_sand.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="27373" name="street_curbs_01_blend_street" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_blend_street.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="27461" name="street_curbs_01_diag" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_diag.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="27541" name="street_curbs_01_diag_2" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_curbs_01_diag_2.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="27621" name="street_decoration_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_decoration_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="27749" name="street_roadsigns_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_roadsigns_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="27829" name="street_trafficlines_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_trafficlines_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="27893" name="street_trafficlines_curb_white_faded" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_trafficlines_curb_white_faded.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="28053" name="street_trafficlines_curb_white_full" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_trafficlines_curb_white_full.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="28213" name="street_trafficlines_curb_yellow_faded" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_trafficlines_curb_yellow_faded.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="28373" name="street_trafficlines_curb_yellow_full" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/street_trafficlines_curb_yellow_full.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="28533" name="trash&amp;junk_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/trash&amp;junk_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="28613" name="trash_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/trash_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="28677" name="trash_walls_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/trash_walls_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="28741" name="trashcontainers_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/trashcontainers_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="28805" name="underground_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/OLD2x/underground_01.png" width="1024" height="5120"/>
+ </tileset>
+ <tileset firstgid="29445" name="vegetation_farm_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_farm_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29509" name="vegetation_farming_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_farming_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="29589" name="vegetation_foliage_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_foliage_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29653" name="vegetation_groundcover_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_groundcover_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29717" name="vegetation_indoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_indoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29781" name="vegetation_ornamental_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_ornamental_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29845" name="vegetation_trees_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/vegetation_trees_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29909" name="walls_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_burnt_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="29973" name="walls_burnt_roofs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_burnt_roofs_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="30053" name="walls_commercial_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_commercial_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="30181" name="walls_commercial_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_commercial_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="30261" name="walls_commercial_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_commercial_03.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="30357" name="walls_decoration_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_decoration_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="30485" name="walls_detailing_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_detailing_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="30613" name="walls_exterior_house_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_house_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="30677" name="walls_exterior_house_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_house_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="30805" name="walls_exterior_roofs_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="30885" name="walls_exterior_roofs_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="30965" name="walls_exterior_roofs_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_03.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="31045" name="walls_exterior_roofs_04" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_04.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="31125" name="walls_exterior_roofs_05" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_05.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="31205" name="walls_exterior_roofs_06" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_06.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="31269" name="walls_exterior_roofs_07" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_07.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="31349" name="walls_exterior_roofs_08" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_08.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="31429" name="walls_exterior_roofs_09" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_roofs_09.png" width="512" height="2688"/>
+ </tileset>
+ <tileset firstgid="31597" name="walls_exterior_wooden_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_wooden_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="31677" name="walls_exterior_wooden_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_exterior_wooden_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="31741" name="walls_garage_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_garage_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="31805" name="walls_garage_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_garage_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="31869" name="walls_interior_bathroom_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_bathroom_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="31933" name="walls_interior_cutaways_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_cutaways_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="32061" name="walls_interior_detailing_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_detailing_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="32189" name="walls_interior_house_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_house_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="32253" name="walls_interior_house_02" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_house_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="32317" name="walls_interior_house_03" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_house_03.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="32381" name="walls_interior_house_04" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_interior_house_04.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="32509" name="walls_special_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/walls_special_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="32637" name="weapons_01" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/weapons_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="32701" name="z_templates_letterboard" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/z_templates_letterboard.png" width="314" height="233"/>
+ </tileset>
+ <tileset firstgid="32705" name="z_templates_wallcutaways" tilewidth="64" tileheight="128">
+  <image source="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles/z_templates_wallcutaways.png" width="640" height="1024"/>
+ </tileset>
+ <layer name="0_Floor" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay2" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay3" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay4" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_Vegetation" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <objectgroup name="0_Lots" width="300" height="300"/>
+ <bmp-settings version="1">
+  <rules-file file="../Rules_and_Blends/Rules.txt"/>
+  <blends-file file="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/WorldEd/Blends.txt"/>
+  <edges-everywhere value="false"/>
+  <aliases>
+   <alias name="lightgrass_n" tiles="blends_natural_01_056 blends_natural_01_060"/>
+   <alias name="lightgrass_w" tiles="blends_natural_01_057 blends_natural_01_061"/>
+   <alias name="lightgrass_e" tiles="blends_natural_01_058 blends_natural_01_062"/>
+   <alias name="lightgrass_s" tiles="blends_natural_01_059 blends_natural_01_063"/>
+   <alias name="medgrass_n" tiles="blends_natural_01_040 blends_natural_01_044"/>
+   <alias name="medgrass_w" tiles="blends_natural_01_041 blends_natural_01_045"/>
+   <alias name="medgrass_e" tiles="blends_natural_01_042 blends_natural_01_046"/>
+   <alias name="medgrass_s" tiles="blends_natural_01_043 blends_natural_01_047"/>
+   <alias name="darkgrass_n" tiles="blends_natural_01_024 blends_natural_01_028"/>
+   <alias name="darkgrass_w" tiles="blends_natural_01_025 blends_natural_01_029"/>
+   <alias name="darkgrass_e" tiles="blends_natural_01_026 blends_natural_01_030"/>
+   <alias name="darkgrass_s" tiles="blends_natural_01_027 blends_natural_01_031"/>
+   <alias name="sand_n" tiles="blends_natural_01_008 blends_natural_01_012"/>
+   <alias name="sand_w" tiles="blends_natural_01_009 blends_natural_01_013"/>
+   <alias name="sand_e" tiles="blends_natural_01_010 blends_natural_01_014"/>
+   <alias name="sand_s" tiles="blends_natural_01_011 blends_natural_01_015"/>
+   <alias name="medlonggrass" tiles="blends_grassoverlays_01_024 blends_grassoverlays_01_025 blends_grassoverlays_01_026 blends_grassoverlays_01_027 blends_grassoverlays_01_028 blends_grassoverlays_01_029"/>
+   <alias name="medmedgrass" tiles="blends_grassoverlays_01_032 blends_grassoverlays_01_033 blends_grassoverlays_01_034 blends_grassoverlays_01_035 blends_grassoverlays_01_036 blends_grassoverlays_01_037"/>
+   <alias name="medshortgrass" tiles="blends_grassoverlays_01_040 blends_grassoverlays_01_041 blends_grassoverlays_01_042 blends_grassoverlays_01_043 blends_grassoverlays_01_044 blends_grassoverlays_01_045"/>
+   <alias name="lightlonggrass" tiles="blends_grassoverlays_01_048 blends_grassoverlays_01_049 blends_grassoverlays_01_050 blends_grassoverlays_01_051 blends_grassoverlays_01_052 blends_grassoverlays_01_053"/>
+   <alias name="lightmedgrass" tiles="blends_grassoverlays_01_056 blends_grassoverlays_01_057 blends_grassoverlays_01_058 blends_grassoverlays_01_059 blends_grassoverlays_01_060 blends_grassoverlays_01_061"/>
+   <alias name="lightshortgrass" tiles="blends_grassoverlays_01_064 blends_grassoverlays_01_065 blends_grassoverlays_01_066 blends_grassoverlays_01_067 blends_grassoverlays_01_068 blends_grassoverlays_01_069"/>
+   <alias name="darklonggrass" tiles="blends_grassoverlays_01_000 blends_grassoverlays_01_001 blends_grassoverlays_01_002 blends_grassoverlays_01_003 blends_grassoverlays_01_004 blends_grassoverlays_01_005"/>
+   <alias name="darkmedgrass" tiles="blends_grassoverlays_01_008 blends_grassoverlays_01_009 blends_grassoverlays_01_010 blends_grassoverlays_01_011 blends_grassoverlays_01_012 blends_grassoverlays_01_013"/>
+   <alias name="darkshortgrass" tiles="blends_grassoverlays_01_016 blends_grassoverlays_01_017 blends_grassoverlays_01_018 blends_grassoverlays_01_019 blends_grassoverlays_01_020 blends_grassoverlays_01_021"/>
+   <alias name="street" tiles="blends_street_01_096 blends_street_01_101 blends_street_01_102 blends_street_01_103"/>
+   <alias name="street2" tiles="blends_street_01_080 blends_street_01_085 blends_street_01_086 blends_street_01_087"/>
+   <alias name="lightgravel" tiles="blends_street_01_048 blends_street_01_053 blends_street_01_054 blends_street_01_055"/>
+   <alias name="pothole" tiles="blends_street_01_016 blends_street_01_021"/>
+   <alias name="dirt" tiles="blends_natural_01_064 blends_natural_01_069 blends_natural_01_070 blends_natural_01_071"/>
+   <alias name="dirtgrass" tiles="blends_natural_01_080 blends_natural_01_085 blends_natural_01_086 blends_natural_01_087"/>
+   <alias name="sand" tiles="blends_natural_01_000 blends_natural_01_005 blends_natural_01_006 blends_natural_01_007"/>
+   <alias name="sandblends" tiles="blends_natural_01_008 blends_natural_01_009 blends_natural_01_010 blends_natural_01_011 blends_natural_01_001 blends_natural_01_004 blends_natural_01_003 blends_natural_01_002"/>
+   <alias name="darkgrassblends" tiles="blends_natural_01_024 blends_natural_01_025 blends_natural_01_026 blends_natural_01_027 blends_natural_01_017 blends_natural_01_020 blends_natural_01_019 blends_natural_01_018"/>
+   <alias name="medgrassblends" tiles="blends_natural_01_040 blends_natural_01_041 blends_natural_01_042 blends_natural_01_043 blends_natural_01_033 blends_natural_01_036 blends_natural_01_035 blends_natural_01_034"/>
+   <alias name="lightgrassblends" tiles="blends_natural_01_056 blends_natural_01_057 blends_natural_01_058 blends_natural_01_059 blends_natural_01_049 blends_natural_01_052 blends_natural_01_051 blends_natural_01_059"/>
+   <alias name="darkgrass" tiles="blends_natural_01_016 blends_natural_01_021 blends_natural_01_022 blends_natural_01_023"/>
+   <alias name="medgrass" tiles="blends_natural_01_032 blends_natural_01_037 blends_natural_01_038 blends_natural_01_039"/>
+   <alias name="lightgrass" tiles="blends_natural_01_048 blends_natural_01_053 blends_natural_01_054 blends_natural_01_055"/>
+   <alias name="water" tiles="blends_natural_02_000 blends_natural_02_005 blends_natural_02_006 blends_natural_02_007"/>
+  </aliases>
+  <rules>
+   <rule label="Dark Grass" bitmapIndex="0" color="90 100 35" tileChoices="darkgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Medium Grass" bitmapIndex="0" color="117 117 47" tileChoices="medgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Light Grass" bitmapIndex="0" color="145 135 60" tileChoices="lightgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Sand" bitmapIndex="0" color="210 200 160" tileChoices="sand" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Light Asphalt" bitmapIndex="0" color="165 160 140" tileChoices="lightgravel" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dark Asphalt (main roads)" bitmapIndex="0" color="100 100 100" tileChoices="street2" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Medium Asphalt" bitmapIndex="0" color="120 120 120" tileChoices="street" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Gravel Dirt" bitmapIndex="0" color="140 70 15" tileChoices="floors_exterior_natural_01_012" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dirt" bitmapIndex="0" color="120 70 20" tileChoices="dirt" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dirt Grass" bitmapIndex="0" color="80 55 20" tileChoices="dirtgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dark Pothole" bitmapIndex="0" color="110 100 100" tileChoices="blends_street_01_000" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Light Pothole" bitmapIndex="0" color="130 120 120" tileChoices="pothole" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Water" bitmapIndex="0" color="0 138 255" tileChoices="water" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Desert A" bitmapIndex="1" color="0 255 255" tileChoices="jumbo_tree_01_000 d_generic_1_000 d_generic_1_001 d_generic_1_002 d_generic_1_003 d_generic_1_004 d_generic_1_005 d_generic_1_006 d_generic_1_007 d_generic_1_008 d_generic_1_009 d_generic_1_010 d_generic_1_011 d_generic_1_012 d_generic_1_013 d_generic_1_014 d_generic_1_015 d_generic_1_016 d_generic_1_017 d_generic_1_018 d_generic_1_019 d_generic_1_020 d_generic_1_021 d_generic_1_022 d_generic_1_023 d_generic_1_024 d_generic_1_025 d_generic_1_026 d_generic_1_027 d_generic_1_028 d_generic_1_029 d_generic_1_030 d_generic_1_031 d_generic_1_032 d_generic_1_033 d_generic_1_034 d_generic_1_035 d_generic_1_036 d_generic_1_037 d_generic_1_038 d_generic_1_039 d_generic_1_040 d_generic_1_041 d_generic_1_042 d_generic_1_043 d_generic_1_044 d_generic_1_045 d_generic_1_046 d_generic_1_047 e_redmaple_1_001 e_redmaple_1_002 e_redmaple_1_003 e_redmaple_1_001 e_redmaple_1_002 e_redmaple_1_003 e_americanholly_1_001 e_americanholly_1_002 e_americanholly_1_003 e_americanlinden_1_000 e_americanlinden_1_001 e_americanlinden_1_002 e_americanlinden_1_003 e_carolinasilverbell_1_001 e_carolinasilverbell_1_002 e_carolinasilverbell_1_003 e_easternredbud_1_001 e_easternredbud_1_002 e_easternredbud_1_003 e_yellowwood_1_001 e_yellowwood_1_002 e_yellowwood_1_003 e_dogwood_1_000 e_dogwood_1_001 e_dogwood_1_002 e_dogwood_1_003 d_plants_3_000 d_plants_3_001 d_plants_3_002 d_plants_3_003 d_plants_3_004 d_plants_3_005 d_plants_3_006 d_plants_3_007 d_plants_3_008 d_plants_3_009 d_plants_3_010 d_plants_3_011 d_plants_3_012 d_plants_3_013 d_plants_3_014 d_plants_3_015 d_plants_3_016 d_plants_3_017 d_plants_3_018 d_plants_3_016 d_plants_3_017 d_plants_3_018 d_plants_3_019 d_plants_3_020 d_plants_3_021 d_plants_3_022 d_plants_3_023 e_newgrass_1_060 e_newgrass_1_061 e_newgrass_1_062 e_newgrass_1_063 e_newgrass_1_064 e_newgrass_1_065 e_newgrass_1_066 e_newgrass_1_067 e_newgrass_1_068 e_newgrass_1_069 e_newgrass_1_070 e_newgrass_1_071 e_newgrass_1_072 e_newgrass_1_073 e_newgrass_1_074 e_newgrass_1_075 e_newgrass_1_076 e_newgrass_1_077 e_newgrass_1_078 e_newgrass_1_079 e_newgrass_1_080 e_newgrass_1_081 e_newgrass_1_082 e_newgrass_1_083 e_newgrass_1_084 e_newgrass_1_085 e_newgrass_1_086 e_newgrass_1_087 e_newgrass_1_088 e_newgrass_1_089 d_desert_rocks_1_000 d_desert_rocks_1_001 d_desert_rocks_1_002 d_desert_rocks_1_003 d_desert_rocks_1_004 d_desert_rocks_1_005 d_desert_rocks_1_006 d_desert_rocks_1_007 d_desert_rocks_1_008 d_desert_rocks_1_009 d_desert_rocks_1_010 d_desert_rocks_1_004 d_desert_rocks_1_005 d_desert_rocks_1_006 d_desert_rocks_1_007 d_desert_rocks_1_008 d_desert_rocks_1_009 d_desert_rocks_1_010 d_desert_rocks_1_011 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Desert B" bitmapIndex="1" color="0 200 200" tileChoices="jumbo_tree_01_000 e_redmaple_1_001 e_redmaple_1_002 e_redmaple_1_003 e_easternredbud_1_001 e_easternredbud_1_002 e_easternredbud_1_003 e_yellowwood_1_001 e_yellowwood_1_002 e_yellowwood_1_003 e_riverbirch_1_001 e_riverbirch_1_002 e_riverbirch_1_003 e_dogwood_1_001 e_dogwood_1_002 e_dogwood_1_003 f_bushes_1_064 f_bushes_1_065 f_bushes_1_066 f_bushes_1_067 f_bushes_1_068 f_bushes_1_069 f_bushes_1_070 f_bushes_1_071 f_bushes_1_072 f_bushes_1_073 f_bushes_1_074 f_bushes_1_075 f_bushes_1_076 f_bushes_1_077 d_plants_3_000 d_plants_3_001 d_plants_3_002 d_plants_3_003 d_plants_3_004 d_plants_3_005 d_plants_3_006 d_plants_3_007 d_plants_3_008 d_plants_3_009 d_plants_3_010 d_plants_3_011 d_plants_3_012 d_plants_3_013 d_plants_3_014 d_plants_3_016 d_plants_3_017 d_plants_3_018 d_plants_3_016 d_plants_3_017 d_plants_3_018 d_plants_3_016 d_plants_3_017 d_plants_3_018 d_plants_3_019 d_plants_3_020 d_plants_3_021 d_plants_3_022 d_plants_3_023 e_newgrass_1_060 e_newgrass_1_061 e_newgrass_1_062 e_newgrass_1_063 e_newgrass_1_064 e_newgrass_1_065 e_newgrass_1_066 e_newgrass_1_067 e_newgrass_1_068 e_newgrass_1_069 e_newgrass_1_070 e_newgrass_1_071 e_newgrass_1_072 e_newgrass_1_073 e_newgrass_1_074 e_newgrass_1_075 e_newgrass_1_076 e_newgrass_1_077 e_newgrass_1_078 e_newgrass_1_079 e_newgrass_1_080 e_newgrass_1_081 e_newgrass_1_082 e_newgrass_1_083 e_newgrass_1_084 e_newgrass_1_085 e_newgrass_1_086 e_newgrass_1_087 e_newgrass_1_088 e_newgrass_1_089 e_dogwood_1_000 e_dogwood_1_001 e_dogwood_1_002 e_dogwood_1_003 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Desert Bushes" bitmapIndex="1" color="200 200 200" tileChoices="f_bushes_1_064 f_bushes_1_065 f_bushes_1_066 f_bushes_1_067 f_bushes_1_068 f_bushes_1_069 f_bushes_1_070 f_bushes_1_071 f_bushes_1_072 f_bushes_1_073 f_bushes_1_074 f_bushes_1_075 f_bushes_1_076 f_bushes_1_077 e_newgrass_1_060 e_newgrass_1_061 e_newgrass_1_062 e_newgrass_1_063 e_newgrass_1_064 e_newgrass_1_065 e_newgrass_1_066 e_newgrass_1_067 e_newgrass_1_068 e_newgrass_1_069 e_newgrass_1_070 e_newgrass_1_071 e_newgrass_1_072 e_newgrass_1_073 e_newgrass_1_074 e_newgrass_1_075 e_newgrass_1_076 e_newgrass_1_077 e_newgrass_1_078 e_newgrass_1_079 e_newgrass_1_080 e_newgrass_1_081 e_newgrass_1_082 e_newgrass_1_083 e_newgrass_1_084 e_newgrass_1_085 e_newgrass_1_086 e_newgrass_1_087 e_newgrass_1_088 e_newgrass_1_089 e_dogwood_1_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Desert C" bitmapIndex="1" color="0 175 175" tileChoices="jumbo_tree_01_000 e_newgrass_1_060 e_newgrass_1_061 e_newgrass_1_062 e_newgrass_1_063 e_newgrass_1_064 e_newgrass_1_065 e_newgrass_1_066 e_newgrass_1_067 e_newgrass_1_068 e_newgrass_1_069 e_newgrass_1_070 e_newgrass_1_071 e_newgrass_1_072 e_newgrass_1_073 e_newgrass_1_074 e_newgrass_1_075 e_newgrass_1_076 e_newgrass_1_077 e_newgrass_1_078 e_newgrass_1_079 e_newgrass_1_080 e_newgrass_1_081 e_newgrass_1_082 e_newgrass_1_083 e_newgrass_1_084 e_newgrass_1_085 e_newgrass_1_086 e_newgrass_1_087 e_newgrass_1_088 e_newgrass_1_089 e_yellowwood_1_001 e_yellowwood_1_002 e_yellowwood_1_003 e_easternredbud_1_001 e_easternredbud_1_002 e_easternredbud_1_003 e_easternredbud_1_001 e_easternredbud_1_002 e_easternredbud_1_003 d_plants_3_016 d_plants_3_017 d_plants_3_018 d_plants_3_016 d_plants_3_017 d_plants_3_018 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Rocks" bitmapIndex="1" color="255 100 100" tileChoices="jumbo_tree_01_000 jumbo_tree_01_000 jumbo_tree_01_000 e_yellowwood_1_001 e_yellowwood_1_002 e_yellowwood_1_003 d_plants_3_019 d_plants_3_020 d_plants_3_021 d_plants_3_022 d_plants_3_023 d_generic_1_000 d_generic_1_001 d_generic_1_002 d_generic_1_003 d_generic_1_004 d_generic_1_005 d_generic_1_006 d_generic_1_007 d_generic_1_008 d_generic_1_009 d_generic_1_015 d_generic_1_016 d_generic_1_017 d_generic_1_018 d_generic_1_019 d_generic_1_020 d_generic_1_021 d_generic_1_022 d_generic_1_023 d_generic_1_024 d_generic_1_025 d_generic_1_026 d_generic_1_027 d_generic_1_028 d_generic_1_029 d_generic_1_030 d_generic_1_031 d_generic_1_032 d_generic_1_033 d_generic_1_034 d_generic_1_035 d_generic_1_036 d_generic_1_037 d_generic_1_038 d_generic_1_039 d_generic_1_040 d_generic_1_041 d_generic_1_042 d_generic_1_043 d_generic_1_044 d_generic_1_045 d_generic_1_046 d_generic_1_047 e_newgrass_1_079 e_newgrass_1_080 e_newgrass_1_081 e_newgrass_1_082 e_newgrass_1_083 e_newgrass_1_084 e_newgrass_1_085 e_newgrass_1_086 e_newgrass_1_087 e_newgrass_1_088 e_newgrass_1_089 e_newgrass_1_079 e_newgrass_1_080 e_newgrass_1_081 e_newgrass_1_082 e_newgrass_1_083 e_newgrass_1_084 e_newgrass_1_085 e_newgrass_1_086 e_newgrass_1_087 e_newgrass_1_088 e_newgrass_1_089 d_desert_rocks_1_000 d_desert_rocks_1_001 d_desert_rocks_1_002 d_desert_rocks_1_003 d_desert_rocks_1_004 d_desert_rocks_1_005 d_desert_rocks_1_006 d_desert_rocks_1_007 d_desert_rocks_1_008 d_desert_rocks_1_009 d_desert_rocks_1_010 d_desert_rocks_1_004 d_desert_rocks_1_005 d_desert_rocks_1_006 d_desert_rocks_1_007 d_desert_rocks_1_008 d_desert_rocks_1_009 d_desert_rocks_1_010 d_desert_rocks_1_004 d_desert_rocks_1_005 d_desert_rocks_1_006 d_desert_rocks_1_007 d_desert_rocks_1_008 d_desert_rocks_1_009 d_desert_rocks_1_010 d_desert_rocks_1_011 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Trees" bitmapIndex="1" color="255 0 0" tileChoices="e_americanholly_1_001 e_americanholly_1_002 e_americanholly_1_003 e_americanlinden_1_000 e_americanlinden_1_001 e_americanlinden_1_002 e_americanlinden_1_003 e_carolinasilverbell_1_001 e_carolinasilverbell_1_002 e_carolinasilverbell_1_003 e_dogwood_1_001 e_dogwood_1_002 e_dogwood_1_003 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000 invisible_01_000" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Dense Trees + Dark grass" bitmapIndex="1" color="200 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 darklonggrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Dense Trees + Medium grass" bitmapIndex="1" color="200 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 medlonggrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Dense Trees + Light grass" bitmapIndex="1" color="200 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 lightlonggrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Trees + Dark grass" bitmapIndex="1" color="127 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 darklonggrass darklonggrass darkmedgrass darkshortgrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Trees + Medium grass" bitmapIndex="1" color="127 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 medlonggrass medlonggrass medmedgrass medshortgrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Trees + Light grass" bitmapIndex="1" color="127 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 lightlonggrass lightlonggrass lightmedgrass lightshortgrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Fir Trees + Dark grass" bitmapIndex="1" color="64 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 darklonggrass darklonggrass darkmedgrass darkshortgrass darkmedgrass darkshortgrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Fir Trees + Medium grass" bitmapIndex="1" color="64 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 medlonggrass medlonggrass medmedgrass medshortgrass medmedgrass medshortgrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Fir Trees + Light grass" bitmapIndex="1" color="64 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 lightlonggrass lightlonggrass lightmedgrass lightshortgrass lightmedgrass lightshortgrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Grass (all types)" bitmapIndex="1" color="0 255 0" tileChoices="darklonggrass darkmedgrass darkshortgrass darklonggrass darkmedgrass darkshortgrass darklonggrass darkmedgrass darkshortgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Light long grass" bitmapIndex="1" color="0 255 0" tileChoices="lightshortgrass lightmedgrass lightlonggrass lightshortgrass lightmedgrass lightlonggrass lightshortgrass lightmedgrass lightlonggrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="" bitmapIndex="1" color="0 255 0" tileChoices="medshortgrass medmedgrass medlonggrass medshortgrass medmedgrass medlonggrass medshortgrass medmedgrass medlonggrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Grass + Few Trees (dark)" bitmapIndex="1" color="0 128 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_010 darklonggrass darklonggrass darkmedgrass darkshortgrass darklonggrass darklonggrass darklonggrass darkmedgrass darkmedgrass vegetation_trees_01_008 vegetation_trees_01_010 darklonggrass darklonggrass darkmedgrass darklonggrass darklonggrass darkmedgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Grass + Few Trees (medium)" bitmapIndex="1" color="0 128 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_010 medlonggrass medlonggrass medmedgrass medshortgrass medlonggrass medlonggrass medlonggrass medmedgrass medmedgrass vegetation_trees_01_008 vegetation_trees_01_010 medlonggrass medlonggrass medmedgrass medlonggrass medlonggrass medmedgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Grass + Few Trees (light)" bitmapIndex="1" color="0 128 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_010 lightlonggrass lightlonggrass lightmedgrass lightshortgrass lightlonggrass lightlonggrass lightlonggrass lightmedgrass lightmedgrass vegetation_trees_01_008 vegetation_trees_01_010 lightlonggrass lightlonggrass lightmedgrass lightlonggrass lightlonggrass lightmedgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Bushes, Grass, Few Trees (dark)" bitmapIndex="1" color="255 0 255" tileChoices="vegetation_foliage_01_008 vegetation_foliage_01_009 vegetation_foliage_01_010 vegetation_foliage_01_011 vegetation_foliage_01_012 vegetation_foliage_01_013 vegetation_foliage_01_014 vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 darklonggrass darklonggrass darkmedgrass darkshortgrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Bushes, Grass, Few Trees (medium)" bitmapIndex="1" color="255 0 255" tileChoices="vegetation_foliage_01_008 vegetation_foliage_01_009 vegetation_foliage_01_010 vegetation_foliage_01_011 vegetation_foliage_01_012 vegetation_foliage_01_013 vegetation_foliage_01_014 vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 medlonggrass medlonggrass medmedgrass medshortgrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Bushes, Grass, Few Trees (light)" bitmapIndex="1" color="255 0 255" tileChoices="vegetation_foliage_01_008 vegetation_foliage_01_009 vegetation_foliage_01_010 vegetation_foliage_01_011 vegetation_foliage_01_012 vegetation_foliage_01_013 vegetation_foliage_01_014 vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 lightlonggrass lightlonggrass lightmedgrass lightshortgrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+  </rules>
+  <blends>
+   <blend targetLayer="0_FloorOverlay" mainTile="darkgrass" blendTile="darkgrass_n" dir="n" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="darkgrass" blendTile="darkgrass_w" dir="w" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="darkgrass" blendTile="darkgrass_e" dir="e" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="darkgrass" blendTile="darkgrass_s" dir="s" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="darkgrass" blendTile="blends_natural_01_017" dir="nw" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="darkgrass" blendTile="blends_natural_01_020" dir="ne" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="darkgrass" blendTile="blends_natural_01_019" dir="sw" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="darkgrass" blendTile="blends_natural_01_018" dir="se" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="medgrass" blendTile="medgrass_n" dir="n" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="medgrass" blendTile="medgrass_w" dir="w" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="medgrass" blendTile="medgrass_e" dir="e" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="medgrass" blendTile="medgrass_s" dir="s" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="medgrass" blendTile="blends_natural_01_033" dir="nw" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="medgrass" blendTile="blends_natural_01_036" dir="ne" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="medgrass" blendTile="blends_natural_01_035" dir="sw" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="medgrass" blendTile="blends_natural_01_034" dir="se" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="lightgrass" blendTile="lightgrass_n" dir="n" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="lightgrass" blendTile="lightgrass_w" dir="w" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="lightgrass" blendTile="lightgrass_e" dir="e" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="lightgrass" blendTile="lightgrass_s" dir="s" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="lightgrass" blendTile="blends_natural_01_049" dir="nw" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="lightgrass" blendTile="blends_natural_01_052" dir="ne" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="lightgrass" blendTile="blends_natural_01_051" dir="sw" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="lightgrass" blendTile="blends_natural_01_050" dir="se" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="sand" blendTile="sand_n" dir="n" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="sand" blendTile="sand_w" dir="w" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="sand" blendTile="sand_e" dir="e" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="sand" blendTile="sand_s" dir="s" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="sand" blendTile="blends_natural_01_001" dir="nw" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="sand" blendTile="blends_natural_01_004" dir="ne" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="sand" blendTile="blends_natural_01_003" dir="sw" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="sand" blendTile="blends_natural_01_002" dir="se" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="blends_street_01_000" blendTile="blends_street_01_008" dir="n" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="blends_street_01_000" blendTile="blends_street_01_009" dir="w" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="blends_street_01_000" blendTile="blends_street_01_010" dir="e" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="blends_street_01_000" blendTile="blends_street_01_011" dir="s" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="blends_street_01_000" blendTile="blends_street_01_001" dir="nw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="blends_street_01_000" blendTile="blends_street_01_002" dir="se" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="blends_street_01_000" blendTile="blends_street_01_003" dir="sw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="blends_street_01_000" blendTile="blends_street_01_004" dir="ne" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="pothole" blendTile="blends_street_01_024" dir="n" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="pothole" blendTile="blends_street_01_025" dir="w" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="pothole" blendTile="blends_street_01_026" dir="e" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="pothole" blendTile="blends_street_01_027" dir="s" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="pothole" blendTile="blends_street_01_017" dir="nw" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="pothole" blendTile="blends_street_01_018" dir="se" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="pothole" blendTile="blends_street_01_019" dir="sw" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="pothole" blendTile="blends_street_01_020" dir="ne" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirt" blendTile="blends_natural_01_072" dir="n" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirt" blendTile="blends_natural_01_073" dir="w" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirt" blendTile="blends_natural_01_074" dir="e" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirt" blendTile="blends_natural_01_075" dir="s" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirt" blendTile="blends_natural_01_065" dir="nw" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirt" blendTile="blends_natural_01_066" dir="se" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirt" blendTile="blends_natural_01_067" dir="sw" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirt" blendTile="blends_natural_01_068" dir="ne" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirtgrass" blendTile="blends_natural_01_088" dir="n" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirtgrass" blendTile="blends_natural_01_089" dir="w" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirtgrass" blendTile="blends_natural_01_090" dir="e" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirtgrass" blendTile="blends_natural_01_091" dir="s" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirtgrass" blendTile="blends_natural_01_081" dir="nw" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirtgrass" blendTile="blends_natural_01_082" dir="se" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirtgrass" blendTile="blends_natural_01_083" dir="sw" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirtgrass" blendTile="blends_natural_01_084" dir="ne" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="water" blendTile="blends_natural_02_008" dir="n" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="water" blendTile="blends_natural_02_009" dir="w" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="water" blendTile="blends_natural_02_010" dir="e" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="water" blendTile="blends_natural_02_011" dir="s" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="water" blendTile="blends_natural_02_001" dir="nw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="water" blendTile="blends_natural_02_002" dir="se" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="water" blendTile="blends_natural_02_003" dir="sw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="water" blendTile="blends_natural_02_004" dir="ne" ExclusionList="" exclude2=""/>
+  </blends>
+ </bmp-settings>
+ <bmp-image index="0" seed="1">
+  <color rgb="90 100 35"/>
+  <color rgb="117 117 47"/>
+  <color rgb="120 70 20"/>
+  <color rgb="145 135 60"/>
+  <color rgb="210 200 160"/>
+  <pixels>
+   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
+  </pixels>
+ </bmp-image>
+ <bmp-image index="1" seed="1">
+  <color rgb="0 175 175"/>
+  <color rgb="0 200 200"/>
+  <color rgb="0 255 255"/>
+  <color rgb="200 200 200"/>
+  <color rgb="255 100 100"/>
+  <pixels>
+   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
+  </pixels>
+ </bmp-image>
+</map>
