@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="15" height="12">
+ <BMPToTMX>
+  <tmxexportdir path="tmx"/>
+  <rulesfile path="../Rules_and_Blends/Rules.txt"/>
+  <blendsfile path=""/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="true"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="true"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path="lots"/>
+  <ZombieSpawnMap path="../map images/build3_zombieSpawn.png"/>
+  <TileDefFolder path="../../../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
+  <worldOrigin origin="0,0"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path="spawnpoints.lua"/>
+  <worldObjectsFile path="objects.lua"/>
+ </LuaSettings>
+ <bmp path="../map images/FUCK.png" x="0" y="0" width="15" height="12"/>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertyenum name="Professions" choices="accountant,bookkeeper,burglar,cashier,chef,constructionworker,cook,customerservice,doctor,drugdealer,farmer,fastfoodcook,fireofficer,itworker,janitor,militaryofficer,militarysoldier,nurse,officeworker,parkranger,policeofficer,salesperson,secretary,securityguard,shopclerk,teacher,truckdriver,unemployed,waiter" multi="false"/>
+ <propertyenum name="Ranch" choices="chicken,cow,pig,sheep" multi="false"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <propertydef name="Ranch" default="all" enum="Ranch"/>
+ <propertydef name="StairX" default=""/>
+ <propertydef name="StairY" default=""/>
+ <propertydef name="StairDirection" default=""/>
+ <propertydef name="StairX" default=""/>
+ <propertydef name="StairY" default=""/>
+ <propertydef name="StairDirection" default=""/>
+ <propertydef name="Professions" default="all" enum="Professions">
+  <description>Comma-separated list of professions that may spawn here.  Use &quot;all&quot; to allow any profession to spawn here.</description>
+ </propertydef>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <template name="Basement">
+  <property name="StairX" value="0"/>
+  <property name="StairY" value="0"/>
+  <property name="StairDirection" value="N"/>
+ </template>
+ <template name="SpawnPoint">
+  <description>This template holds the default set of properties for all spawn points in the world.</description>
+  <property name="Professions" value="all"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="Ranch"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objecttype name="Basement"/>
+ <objecttype name="SpawnPoint"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Ranch" color="#ff8000" defaulttype="Ranch"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <objectgroup name="Basement" color="#00ffee" defaulttype="Basement"/>
+ <cell x="0" y="0" map="tmx/FUCK_0_0.tmx">
+  <object group="Vegitation" type="Vegitation" x="0" y="0" level="0" width="300" height="300"/>
+ </cell>
+ <cell x="1" y="0" map="tmx/FUCK_1_0.tmx"/>
+ <cell x="2" y="0" map="tmx/FUCK_2_0.tmx"/>
+ <cell x="3" y="0" map="tmx/FUCK_3_0.tmx"/>
+ <cell x="4" y="0" map="tmx/FUCK_4_0.tmx"/>
+ <cell x="5" y="0" map="tmx/FUCK_5_0.tmx"/>
+ <cell x="6" y="0" map="tmx/FUCK_6_0.tmx"/>
+ <cell x="7" y="0" map="tmx/FUCK_7_0.tmx"/>
+ <cell x="8" y="0" map="tmx/FUCK_8_0.tmx"/>
+ <cell x="9" y="0" map="tmx/FUCK_9_0.tmx"/>
+ <cell x="10" y="0" map="tmx/FUCK_10_0.tmx"/>
+ <cell x="11" y="0" map="tmx/FUCK_11_0.tmx"/>
+ <cell x="12" y="0" map="tmx/FUCK_12_0.tmx"/>
+ <cell x="13" y="0" map="tmx/FUCK_13_0.tmx"/>
+ <cell x="14" y="0" map="tmx/FUCK_14_0.tmx">
+  <object group="Vegitation" type="Vegitation" x="0" y="0" level="0" width="300" height="300"/>
+ </cell>
+ <cell x="0" y="1" map="tmx/FUCK_0_1.tmx"/>
+ <cell x="1" y="1" map="tmx/FUCK_1_1.tmx"/>
+ <cell x="2" y="1" map="tmx/FUCK_2_1.tmx"/>
+ <cell x="3" y="1" map="tmx/FUCK_3_1.tmx"/>
+ <cell x="4" y="1" map="tmx/FUCK_4_1.tmx"/>
+ <cell x="5" y="1" map="tmx/FUCK_5_1.tmx"/>
+ <cell x="6" y="1" map="tmx/FUCK_6_1.tmx"/>
+ <cell x="7" y="1" map="tmx/FUCK_7_1.tmx"/>
+ <cell x="8" y="1" map="tmx/FUCK_8_1.tmx"/>
+ <cell x="9" y="1" map="tmx/FUCK_9_1.tmx"/>
+ <cell x="10" y="1" map="tmx/FUCK_10_1.tmx"/>
+ <cell x="11" y="1" map="tmx/FUCK_11_1.tmx"/>
+ <cell x="12" y="1" map="tmx/FUCK_12_1.tmx"/>
+ <cell x="13" y="1" map="tmx/FUCK_13_1.tmx"/>
+ <cell x="14" y="1" map="tmx/FUCK_14_1.tmx"/>
+ <cell x="0" y="2" map="tmx/FUCK_0_2.tmx"/>
+ <cell x="1" y="2" map="tmx/FUCK_1_2.tmx"/>
+ <cell x="2" y="2" map="tmx/FUCK_2_2.tmx"/>
+ <cell x="3" y="2" map="tmx/FUCK_3_2.tmx"/>
+ <cell x="4" y="2" map="tmx/FUCK_4_2.tmx"/>
+ <cell x="5" y="2" map="tmx/FUCK_5_2.tmx"/>
+ <cell x="6" y="2" map="tmx/FUCK_6_2.tmx"/>
+ <cell x="7" y="2" map="tmx/FUCK_7_2.tmx"/>
+ <cell x="8" y="2" map="tmx/FUCK_8_2.tmx"/>
+ <cell x="9" y="2" map="tmx/FUCK_9_2.tmx"/>
+ <cell x="10" y="2" map="tmx/FUCK_10_2.tmx"/>
+ <cell x="11" y="2" map="tmx/FUCK_11_2.tmx"/>
+ <cell x="12" y="2" map="tmx/FUCK_12_2.tmx"/>
+ <cell x="13" y="2" map="tmx/FUCK_13_2.tmx"/>
+ <cell x="14" y="2" map="tmx/FUCK_14_2.tmx"/>
+ <cell x="0" y="3" map="tmx/FUCK_0_3.tmx"/>
+ <cell x="1" y="3" map="tmx/FUCK_1_3.tmx"/>
+ <cell x="2" y="3" map="tmx/FUCK_2_3.tmx"/>
+ <cell x="3" y="3" map="tmx/FUCK_3_3.tmx"/>
+ <cell x="4" y="3" map="tmx/FUCK_4_3.tmx"/>
+ <cell x="5" y="3" map="tmx/FUCK_5_3.tmx"/>
+ <cell x="6" y="3" map="tmx/FUCK_6_3.tmx"/>
+ <cell x="7" y="3" map="tmx/FUCK_7_3.tmx"/>
+ <cell x="8" y="3" map="tmx/FUCK_8_3.tmx"/>
+ <cell x="9" y="3" map="tmx/FUCK_9_3.tmx"/>
+ <cell x="10" y="3" map="tmx/FUCK_10_3.tmx"/>
+ <cell x="11" y="3" map="tmx/FUCK_11_3.tmx"/>
+ <cell x="12" y="3" map="tmx/FUCK_12_3.tmx"/>
+ <cell x="13" y="3" map="tmx/FUCK_13_3.tmx"/>
+ <cell x="14" y="3" map="tmx/FUCK_14_3.tmx"/>
+ <cell x="0" y="4" map="tmx/FUCK_0_4.tmx"/>
+ <cell x="1" y="4" map="tmx/FUCK_1_4.tmx"/>
+ <cell x="2" y="4" map="tmx/FUCK_2_4.tmx"/>
+ <cell x="3" y="4" map="tmx/FUCK_3_4.tmx"/>
+ <cell x="4" y="4" map="tmx/FUCK_4_4.tmx"/>
+ <cell x="5" y="4" map="tmx/FUCK_5_4.tmx"/>
+ <cell x="6" y="4" map="tmx/FUCK_6_4.tmx"/>
+ <cell x="7" y="4" map="tmx/FUCK_7_4.tmx"/>
+ <cell x="8" y="4" map="tmx/FUCK_8_4.tmx"/>
+ <cell x="9" y="4" map="tmx/FUCK_9_4.tmx"/>
+ <cell x="10" y="4" map="tmx/FUCK_10_4.tmx"/>
+ <cell x="11" y="4" map="tmx/FUCK_11_4.tmx"/>
+ <cell x="12" y="4" map="tmx/FUCK_12_4.tmx"/>
+ <cell x="13" y="4" map="tmx/FUCK_13_4.tmx"/>
+ <cell x="14" y="4" map="tmx/FUCK_14_4.tmx"/>
+ <cell x="0" y="5" map="tmx/FUCK_0_5.tmx"/>
+ <cell x="1" y="5" map="tmx/FUCK_1_5.tmx"/>
+ <cell x="2" y="5" map="tmx/FUCK_2_5.tmx"/>
+ <cell x="3" y="5" map="tmx/FUCK_3_5.tmx"/>
+ <cell x="4" y="5" map="tmx/FUCK_4_5.tmx"/>
+ <cell x="5" y="5" map="tmx/FUCK_5_5.tmx"/>
+ <cell x="6" y="5" map="tmx/FUCK_6_5.tmx"/>
+ <cell x="7" y="5" map="tmx/FUCK_7_5.tmx"/>
+ <cell x="8" y="5" map="tmx/FUCK_8_5.tmx"/>
+ <cell x="9" y="5" map="tmx/FUCK_9_5.tmx"/>
+ <cell x="10" y="5" map="tmx/FUCK_10_5.tmx"/>
+ <cell x="11" y="5" map="tmx/FUCK_11_5.tmx"/>
+ <cell x="12" y="5" map="tmx/FUCK_12_5.tmx"/>
+ <cell x="13" y="5" map="tmx/FUCK_13_5.tmx"/>
+ <cell x="14" y="5" map="tmx/FUCK_14_5.tmx"/>
+ <cell x="0" y="6" map="tmx/FUCK_0_6.tmx"/>
+ <cell x="1" y="6" map="tmx/FUCK_1_6.tmx"/>
+ <cell x="2" y="6" map="tmx/FUCK_2_6.tmx"/>
+ <cell x="3" y="6" map="tmx/FUCK_3_6.tmx"/>
+ <cell x="4" y="6" map="tmx/FUCK_4_6.tmx"/>
+ <cell x="5" y="6" map="tmx/FUCK_5_6.tmx"/>
+ <cell x="6" y="6" map="tmx/FUCK_6_6.tmx"/>
+ <cell x="7" y="6" map="tmx/FUCK_7_6.tmx"/>
+ <cell x="8" y="6" map="tmx/FUCK_8_6.tmx"/>
+ <cell x="9" y="6" map="tmx/FUCK_9_6.tmx"/>
+ <cell x="10" y="6" map="tmx/FUCK_10_6.tmx"/>
+ <cell x="11" y="6" map="tmx/FUCK_11_6.tmx"/>
+ <cell x="12" y="6" map="tmx/FUCK_12_6.tmx"/>
+ <cell x="13" y="6" map="tmx/FUCK_13_6.tmx"/>
+ <cell x="14" y="6" map="tmx/FUCK_14_6.tmx"/>
+ <cell x="0" y="7" map="tmx/FUCK_0_7.tmx"/>
+ <cell x="1" y="7" map="tmx/FUCK_1_7.tmx"/>
+ <cell x="2" y="7" map="tmx/FUCK_2_7.tmx"/>
+ <cell x="3" y="7" map="tmx/FUCK_3_7.tmx"/>
+ <cell x="4" y="7" map="tmx/FUCK_4_7.tmx"/>
+ <cell x="5" y="7" map="tmx/FUCK_5_7.tmx"/>
+ <cell x="6" y="7" map="tmx/FUCK_6_7.tmx"/>
+ <cell x="7" y="7" map="tmx/FUCK_7_7.tmx">
+  <object type="SpawnPoint" x="157" y="137" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+ </cell>
+ <cell x="8" y="7" map="tmx/FUCK_8_7.tmx"/>
+ <cell x="9" y="7" map="tmx/FUCK_9_7.tmx"/>
+ <cell x="10" y="7" map="tmx/FUCK_10_7.tmx"/>
+ <cell x="11" y="7" map="tmx/FUCK_11_7.tmx"/>
+ <cell x="12" y="7" map="tmx/FUCK_12_7.tmx"/>
+ <cell x="13" y="7" map="tmx/FUCK_13_7.tmx"/>
+ <cell x="14" y="7" map="tmx/FUCK_14_7.tmx"/>
+ <cell x="0" y="8" map="tmx/FUCK_0_8.tmx"/>
+ <cell x="1" y="8" map="tmx/FUCK_1_8.tmx"/>
+ <cell x="2" y="8" map="tmx/FUCK_2_8.tmx"/>
+ <cell x="3" y="8" map="tmx/FUCK_3_8.tmx"/>
+ <cell x="4" y="8" map="tmx/FUCK_4_8.tmx"/>
+ <cell x="5" y="8" map="tmx/FUCK_5_8.tmx"/>
+ <cell x="6" y="8" map="tmx/FUCK_6_8.tmx"/>
+ <cell x="7" y="8" map="tmx/FUCK_7_8.tmx"/>
+ <cell x="8" y="8" map="tmx/FUCK_8_8.tmx"/>
+ <cell x="9" y="8" map="tmx/FUCK_9_8.tmx"/>
+ <cell x="10" y="8" map="tmx/FUCK_10_8.tmx"/>
+ <cell x="11" y="8" map="tmx/FUCK_11_8.tmx"/>
+ <cell x="12" y="8" map="tmx/FUCK_12_8.tmx"/>
+ <cell x="13" y="8" map="tmx/FUCK_13_8.tmx"/>
+ <cell x="14" y="8" map="tmx/FUCK_14_8.tmx"/>
+ <cell x="0" y="9" map="tmx/FUCK_0_9.tmx"/>
+ <cell x="1" y="9" map="tmx/FUCK_1_9.tmx"/>
+ <cell x="2" y="9" map="tmx/FUCK_2_9.tmx"/>
+ <cell x="3" y="9" map="tmx/FUCK_3_9.tmx"/>
+ <cell x="4" y="9" map="tmx/FUCK_4_9.tmx"/>
+ <cell x="5" y="9" map="tmx/FUCK_5_9.tmx"/>
+ <cell x="6" y="9" map="tmx/FUCK_6_9.tmx"/>
+ <cell x="7" y="9" map="tmx/FUCK_7_9.tmx"/>
+ <cell x="8" y="9" map="tmx/FUCK_8_9.tmx"/>
+ <cell x="9" y="9" map="tmx/FUCK_9_9.tmx"/>
+ <cell x="10" y="9" map="tmx/FUCK_10_9.tmx"/>
+ <cell x="11" y="9" map="tmx/FUCK_11_9.tmx"/>
+ <cell x="12" y="9" map="tmx/FUCK_12_9.tmx"/>
+ <cell x="13" y="9" map="tmx/FUCK_13_9.tmx"/>
+ <cell x="14" y="9" map="tmx/FUCK_14_9.tmx"/>
+ <cell x="0" y="10" map="tmx/FUCK_0_10.tmx"/>
+ <cell x="1" y="10" map="tmx/FUCK_1_10.tmx"/>
+ <cell x="2" y="10" map="tmx/FUCK_2_10.tmx"/>
+ <cell x="3" y="10" map="tmx/FUCK_3_10.tmx"/>
+ <cell x="4" y="10" map="tmx/FUCK_4_10.tmx"/>
+ <cell x="5" y="10" map="tmx/FUCK_5_10.tmx"/>
+ <cell x="6" y="10" map="tmx/FUCK_6_10.tmx"/>
+ <cell x="7" y="10" map="tmx/FUCK_7_10.tmx"/>
+ <cell x="8" y="10" map="tmx/FUCK_8_10.tmx"/>
+ <cell x="9" y="10" map="tmx/FUCK_9_10.tmx"/>
+ <cell x="10" y="10" map="tmx/FUCK_10_10.tmx"/>
+ <cell x="11" y="10" map="tmx/FUCK_11_10.tmx"/>
+ <cell x="12" y="10" map="tmx/FUCK_12_10.tmx"/>
+ <cell x="13" y="10" map="tmx/FUCK_13_10.tmx"/>
+ <cell x="14" y="10" map="tmx/FUCK_14_10.tmx"/>
+ <cell x="0" y="11" map="tmx/FUCK_0_11.tmx">
+  <object group="Vegitation" type="Vegitation" x="0" y="0" level="0" width="300" height="300"/>
+ </cell>
+ <cell x="1" y="11" map="tmx/FUCK_1_11.tmx"/>
+ <cell x="2" y="11" map="tmx/FUCK_2_11.tmx"/>
+ <cell x="3" y="11" map="tmx/FUCK_3_11.tmx"/>
+ <cell x="4" y="11" map="tmx/FUCK_4_11.tmx"/>
+ <cell x="5" y="11" map="tmx/FUCK_5_11.tmx"/>
+ <cell x="6" y="11" map="tmx/FUCK_6_11.tmx"/>
+ <cell x="7" y="11" map="tmx/FUCK_7_11.tmx"/>
+ <cell x="8" y="11" map="tmx/FUCK_8_11.tmx"/>
+ <cell x="9" y="11" map="tmx/FUCK_9_11.tmx"/>
+ <cell x="10" y="11" map="tmx/FUCK_10_11.tmx"/>
+ <cell x="11" y="11" map="tmx/FUCK_11_11.tmx"/>
+ <cell x="12" y="11" map="tmx/FUCK_12_11.tmx"/>
+ <cell x="13" y="11" map="tmx/FUCK_13_11.tmx"/>
+ <cell x="14" y="11" map="tmx/FUCK_14_11.tmx">
+  <object group="Vegitation" type="Vegitation" x="0" y="0" level="0" width="300" height="300"/>
+ </cell>
+</world>
